@@ -1,3 +1,9 @@
+#Key Files
+client_secret.json
+credentials.json
+
+package-lock.json
+
 # Logs
 logs
 *.log

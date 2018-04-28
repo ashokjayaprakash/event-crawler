@@ -1,0 +1,33 @@
+{
+  "name": "event-crawler",
+  "version": "1.0.0",
+  "description": "A crawler to get events from multiple sites and create events in google calender",
+  "main": "app/auth.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "debug": "node --nolazy --inspect-brk=9229 app/calendar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokjayaprakash/event-crawler.git"
+  },
+  "keywords": [
+    "event-crawler",
+    "google",
+    "calender"
+  ],
+  "author": "Ashok JayaPrakash <ashokjp93@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashokjayaprakash/event-crawler/issues"
+  },
+  "homepage": "https://github.com/ashokjayaprakash/event-crawler#readme",
+  "dependencies": {
+    "googleapis": "^27.0.0",
+    "mkdirp": "^0.5.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "json-stringify-safe": "^5.0.1"
+  }
+}
